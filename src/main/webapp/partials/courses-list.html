@@ -1,0 +1,14 @@
+<div class="panel panel-success" ng-controller="CoursesListCtrl">
+    <div class="panel-heading">Corsi</div>
+
+    <div class="panel-body">
+        <table class="table table-striped">
+            <tr><th>Corso</th><th>Anno</th><th>Maschi/Femmine</th></tr>
+            <tr ng-repeat="course in courses">
+                <td><a href="#/attendees/{{course.id}}" class="thumb">{{course.name}}</a></td>
+                <td>{{course.year}}</td>
+                <td>{{course.male}}/{{course.female}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head />
+
+
+    <ui:composition template="resources/base.xhtml">
+        <ui:define name="main">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                </ul>
+                <h3 class="text-muted">JEE-KOL</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h1>JEE-KOL</h1>
+                <p class="lead">
+                    <span class="alert-success">Go!</span> 
+                    Dimostra quanto vali!
+                </p>
+            </div>
+
+            <div ng-view="dataView"></div>
+        </ui:define>
+    </ui:composition>
+</html>

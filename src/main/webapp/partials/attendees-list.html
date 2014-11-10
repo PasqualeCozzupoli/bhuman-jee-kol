@@ -1,0 +1,14 @@
+<div class="panel panel-success" ng-controller="AttendeesListCtrl">
+    <div class="panel-heading">Corsi</div>
+
+    <div class="panel-body">
+        <table class="table table-striped">
+            <tr><th>Nome</th><th>Genere</th></tr>
+            <tr ng-repeat="attendee in attendees">
+                <td>{{attendee.name}}</td>
+                <td>{{attendee.gender}}</td>
+            </tr>
+        </table>
+        <a href="#/courses"><button type="button" class="btn btn-info btn-sm">Back</button></a>
+    </div>
+</div>

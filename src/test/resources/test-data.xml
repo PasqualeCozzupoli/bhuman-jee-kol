@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<STUDENT id="10" name="Rita" gender="FEMALE" />
+	<STUDENT id="11" name="Paolo" gender="MALE" />
+	<STUDENT id="12" name="Nicoletta" gender="FEMALE" />
+</dataset>
